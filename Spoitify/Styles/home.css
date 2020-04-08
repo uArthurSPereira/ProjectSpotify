@@ -1,0 +1,224 @@
+@font-face{
+    font-family: FntSpotify;
+    src: url(../CircularStd-Book.otf);
+}
+
+body{
+    font-family: 'FntSpotify';
+    color: white;
+}
+
+.container1{
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.minicontainer1{
+    height: 80px;
+    width: 750px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo img{
+    height: 40px;
+    width: 130px;
+    margin-left: 105px;
+    
+}
+
+.minicontainer2{
+    height: 80px;
+    width: 650px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.minicontainer2 div{
+    color: white;
+    font-size: 16px;
+    width: fit-content;
+}
+
+.item1{
+    margin-left: 45px;
+}
+
+.traco{
+    padding-top: 15px;
+}
+
+.item5{
+    margin-right: 105px;
+}
+
+a{
+    color: white;
+    font-size: 16px;
+    font-family: 'FntSpotify';
+    text-decoration: none;
+}
+
+a:hover, .irp a:hover, .brasil a:hover{
+    color: #1DB954;
+    text-decoration: none;
+}
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    height: 105vh;
+    background: linear-gradient(#F037A5 -60%, #FAE62D 140%);
+}
+
+.containerforbg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 105vh;
+    background-image: url(../Imagens/fundo.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size: 115vw;
+    background-position: center;
+}
+
+.conteudo{
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.text1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 20vh;
+
+}
+
+.text1 b{
+    font-family: 'FntSpotify';
+    color: white;
+    font-size: 80px;
+}
+
+.text2, .botao1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+.text2 h4{
+    font-family: 'FntSpotify';
+    color: white;
+    font-size: 18px;
+}
+
+.botao1 button{
+    font-family: 'FntSpotify';
+    color: white;
+    font-size: 14px;
+    background-color: #1DB954;
+    border-radius: 500px;
+    height: 50px;
+    width: 300px;
+    border-color: #1DB954;
+}
+
+.botao1 button b{
+    font-family: 'FntSpotify';
+    color: white;
+    font-size: 14px;
+}
+
+.container3{
+    background-color: black;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.minicontainer3{
+    height: 50vh;
+    width: 820px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.minicontainer4{
+    height: 50vh;
+    width: 580px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+.topic, .subtopic{
+    padding-top: 10px;
+}
+
+.rs1 img, .rs2 img, .rs3 img{
+    height: 40px;
+    width: 40px;
+    margin-left: 15px;
+}
+
+.rs3 img{
+    margin-right: 105px;
+}
+
+.container4{
+    height: 10vh;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+}
+
+.minicontainer5{
+    height: 10vh;
+    width: 620px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.irp a, .irpp a, .irp1 p, .brasil a{
+    font-size: 12px;
+    color: white;
+    font-family: 'FntSpotify';
+}
+
+.irpp{
+    margin-left: 105px;
+}
+
+.minicontainer6{
+    height: 10vh;
+    width: 620px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.brasil img{
+    height: 20px;
+    width: 40px;
+}
